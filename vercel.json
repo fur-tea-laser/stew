@@ -1,5 +1,6 @@
 {
-  "buildCommand": "deno task buildStew",
+  "installCommand": "curl -fsSL https://deno.land/install.sh | sh -s v1.46.3",
+  "buildCommand": "export DENO_INSTALL=\"$HOME/.deno\" && export PATH=\"$DENO_INSTALL/bin:$PATH\" && deno task buildStew",
   "outputDirectory": "build",
   "rewrites": [
     {

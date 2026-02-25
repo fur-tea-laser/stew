@@ -1,8 +1,8 @@
 import { SourceStewConfig } from "stew/config/mod.ts";
 import {
-  getWebsiteIconSvg,
+  // getWebsiteIconSvg,
   getGithubIconSvg,
-  getTwitterIconSvg,
+  // getTwitterIconSvg,
   getEmailIconSvg,
 } from "stew/config/helpers/mod.ts";
 import { musicDataset } from "./music/music.dataset.ts";
@@ -14,28 +14,28 @@ export default getStewConfig();
 function getStewConfig(): SourceStewConfig {
   return {
     stewInfo: {
-      stewName: "clumsycomputer",
+      stewName: "fur-tea-laser",
       stewTagline: "colorful colorado",
       stewMessage: "just trying to listen and groove",
       stewLinks: [
-        {
-          linkLabel: "website",
-          linkHref: "https://clumsycomputer.com",
-          linkIconSvg: getWebsiteIconSvg(),
-        },
+        // {
+        //   linkLabel: "website",
+        //   linkHref: todo,
+        //   linkIconSvg: getWebsiteIconSvg(),
+        // },
         {
           linkLabel: "github",
-          linkHref: "https://github.com/clumsycomputer",
+          linkHref: "https://github.com/fur-tea-laser",
           linkIconSvg: getGithubIconSvg(),
         },
-        {
-          linkLabel: "twitter",
-          linkHref: "https://twitter.com/c1umsyc0mputer",
-          linkIconSvg: getTwitterIconSvg(),
-        },
+        // {
+        //   linkLabel: "twitter",
+        //   linkHref: todo,
+        //   linkIconSvg: getTwitterIconSvg(),
+        // },
         {
           linkLabel: "email",
-          linkHref: "mailto:clumsycomputer@stews.io",
+          linkHref: "mailto:fur-tea-laser@gmail.com",
           linkIconSvg: getEmailIconSvg(),
         },
       ],

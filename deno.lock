@@ -1,5 +1,5 @@
 {
-  "version": "2",
+  "version": "3",
   "remote": {
     "https://deno.land/x/stew@0.4.0/stew-library/config/SegmentDataset.ts": "f0f124bde6ce8945e1e47f12493ceb870657f9c89e673b49763f86b9be167b7b",
     "https://deno.land/x/stew@0.4.0/stew-library/config/SegmentModule.ts": "096378481547960a8caca1d0c3fa701d194d2d8bb10a81e8903d829ef576e710",
@@ -29,6 +29,12 @@
     "https://deno.land/x/zod@v3.22.2/mod.ts": "64e55237cb4410e17d968cd08975566059f27638ebb0b86048031b987ba251c4",
     "https://deno.land/x/zod@v3.22.2/types.ts": "18cbe3d895f42977c43fa9411da214b06d0d682cf2f4c9dd26cc8c3737740d40",
     "https://esm.sh/preact@10.17.1": "d9d10d95cd047fd2c26bb68e760a87d3747fafc64a1e54049095682c69c7491a",
-    "https://esm.sh/stable/preact@10.17.1/denonext/preact.mjs": "0f2f159289b4502eea839f4b57cef910ad03d63213ac5301e6767326b060d8f6"
+    "https://esm.sh/preact@10.17.1/denonext/jsx-runtime.mjs": "10ab3e669f94a83e5304f57552b32dd957df72b2881c6c757b17b826225f5099",
+    "https://esm.sh/preact@10.17.1/denonext/preact.mjs": "b977f9b0406201c13474f18cbd08af026b7117c68ed31448e7b8c14067e3c62b",
+    "https://esm.sh/preact@10.17.1/jsx-runtime": "aadcd7d30ab772d8a5214db2090ce854a7d89ad7fd24d216d78b43f5d86a6f7c",
+    "https://esm.sh/stable/preact@10.17.1/denonext/preact.mjs": "0f2f159289b4502eea839f4b57cef910ad03d63213ac5301e6767326b060d8f6",
+    "https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/0.4.9/stew-library/config/helpers/getExternalLinkIconSvg.ts": "108efd83d08bfe9a4f33c181892c8fd4ddf1b4e8c6b38cce6188e0adac82597d",
+    "https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/0.4.9/stew-library/config/helpers/mod.ts": "db6f49e925868df46921baf99f4893d2ca6c4664b2182b3a50e2a43b4896a234",
+    "https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/0.4.9/stew-library/config/mod.ts": "00f371dc00c1c3bc8a2d1705a356d96ca44fc283e91c29471556327eea52de19"
   }
 }
